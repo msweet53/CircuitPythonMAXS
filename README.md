@@ -29,8 +29,14 @@ I learned that with the lcd backpack library for circuit python, the lcd.print()
 ![](CAPtouchLCDGIF.gif)
 ## Circuit Python Assignment 4
 ### Desc.
-Code so that when you interrupt a phot interrupter, it adds to a counter that refreshes every 4 seconds.
+Code so that when you interrupt a photo interrupter, it adds to a counter that refreshes every 4 seconds.
 ### Lessons Learned:
 Doing that without using the sleep() funtion was very difficult.
 ### Pictures/GIFs
 ![](PHOTOINTERRUPTERlcdcountGIF.gif)
+## Circuit Python assignment 5
+In this code, the onboard neopixel of a metro express M0 fades between the colors on the rgb spectrum based on how far away an object is from an ultrasonic sensor.
+## Lessons Learned:
+With the library for circuit python with the ultrasonic sensor, it has this annoying error that will just stop your code entirely if you haven't coded around it being able to stop your code entirely. Also if you get the error the neopixel turns like a bright green.
+## Pictures/ GIFs
+![](ULTRASONICneopixelGIF.gif)
