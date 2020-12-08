@@ -27,3 +27,10 @@ This makes it so that when you touch one wire the mode changes from up to down o
 I learned that with the lcd backpack library for circuit python, the lcd.print() funtion does not work with integers, and you have to turn the integer you want to display into a string with the str() function first.
 ### Pictures/GIFs
 ![](CAPtouchLCDGIF.gif)
+## Circuit Python Assignment 4
+### Desc.
+Code so that when you interrupt a phot interrupter, it adds to a counter that refreshes every 4 seconds.
+### Lessons Learned:
+Doing that without using the sleep() funtion was very difficult.
+### Pictures/GIFs
+![](PHOTOINTERRUPTERlcdcountGIF.gif)
