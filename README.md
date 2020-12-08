@@ -40,3 +40,10 @@ In this code, the onboard neopixel of a metro express M0 fades between the color
 With the library for circuit python with the ultrasonic sensor, it has this annoying error that will just stop your code entirely if you haven't coded around it being able to stop your code entirely. Also if you get the error the neopixel turns like a bright green.
 ## Pictures/ GIFs
 ![](ULTRASONICneopixelGIF.gif)
+## Circuit Python assignment 7
+### Desc.
+A class code to be used with code provided with the assignment. (Code provided is multiple functions that you need to make with modules and classes in your other code)
+### Lessons learned:
+I learned how to make a class and a module and how to make them work with digital IO. (Learned this because I was unable to do the previous assignment before this one due to not having to correct type of LED)
+### Pictures/GIFs:
+![](fancyLEDGIF.gif)
