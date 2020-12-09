@@ -35,11 +35,19 @@ Doing that without using the sleep() funtion was very difficult.
 ### Pictures/GIFs
 ![](PHOTOINTERRUPTERlcdcountGIF.gif)
 ## Circuit Python assignment 5
+### Desc.
 In this code, the onboard neopixel of a metro express M0 fades between the colors on the rgb spectrum based on how far away an object is from an ultrasonic sensor.
-## Lessons Learned:
+### Lessons Learned:
 With the library for circuit python with the ultrasonic sensor, it has this annoying error that will just stop your code entirely if you haven't coded around it being able to stop your code entirely. Also if you get the error the neopixel turns like a bright green.
-## Pictures/ GIFs
+### Pictures/ GIFs
 ![](ULTRASONICneopixelGIF.gif)
+## Circuit Python assignment 6
+### Desc.
+A class that allows a 4 pin rgb led to be comtrolled easily with multiple varying functions.
+### Lessons learned:
+I learned that it is very easy to have something get stuck in a loop and have your code just do that one loop instead of going on with the rest of your code. I was having a problem with the rgb fade module and it would just get stuck there. So I had to make it so that you could set a duration for it to last. 
+### Pictures/GIFs
+![](RGBledGIF.gif)
 ## Circuit Python assignment 7
 ### Desc.
 A class code to be used with code provided with the assignment. (Code provided is multiple functions that you need to make with modules and classes in your other code)
