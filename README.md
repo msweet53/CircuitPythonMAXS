@@ -1,6 +1,6 @@
 # CircuitPythonMAXS
 ## PLEASE NOTE:
-The board I used for these assignments is a Metro Express M0. NOT an Arduino Uno RC3. Some things Needed to be subsituted in the circuit diagrams sush as: Arduino Uno for Metro Express M0, 8 pin header for loose wire, and a random sensor for the Photointerruptor. Please also take into account that I used an lcd backpack with my lcd screen. So the shown wiring is very incorrect.
+The board I used for these assignments is a Metro Express M0. NOT an Arduino Uno RC3. Some things Needed to be subsituted in the circuit diagrams such as: Arduino Uno for Metro Express M0, 8 pin header for loose wire, and a random sensor for the Photointerruptor. Please also take into account that I used an lcd backpack with my lcd screen. So the shown wiring is very incorrect.
 ## Circuit Python assignment 1
 [RainbowRGBEpicGamer.py](https://github.com/msweet53/CircuitPythonMAXS/blob/main/Code/RainbowRGBEpicGamer.py)
 ### Desc.
