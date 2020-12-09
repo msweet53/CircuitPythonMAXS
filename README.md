@@ -1,5 +1,6 @@
 # CircuitPythonMAXS
 ## Circuit Python assignment 1
+![](RainbowRGBEpicGamer.py)
 ### Desc.
 This code makes it so that the neopixel on the metro express fades between the colors on the RGB spectrum at a variable rate.
 ### Lessons learned:
@@ -7,6 +8,7 @@ I learned that in circuit python to change a variable through addition or subrac
 ### Pictures/GIFs
 ![](RGBepicgamerGIF.gif)
 ## Circuit Python assignment 2
+![](LEDBlink.py)
 ### Desc.
 This code makes it so that a LED wired to digital pin 13 blinks at a variable rate.
 ### Lessons learned.
@@ -14,6 +16,7 @@ I learned that you have to determine whether your pin is an output or an input.
 ### Pictures/GIFs
 ![](LEDBlinkGIF.gif)
 ## Circuit Python assignment 3
+![](CAPtouchSERVO.py)
 ### Desc.
 This code makes it so that when you touch one of the wires, the servo moves in one direction, then when you touch the other wire it moves in the opposite direction.
 ### Lessons Learned:
@@ -21,6 +24,7 @@ That when the servo goes over 180 or under 0, it comes back as an error so you h
 ### Pictures/GIFs
 ![](CAPtouchSERVOGIF.gif)
 ## Circuit Python assignment 4
+![](CAPtouchLCD.py)
 ### Desc.
 This makes it so that when you touch one wire the mode changes from up to down or from down to up, then when you touch the other wire the counter will either go up or down depending on which mode it is on, all displayed real time on an lcd screen.
 ### Lessons Learned:
@@ -28,6 +32,7 @@ I learned that with the lcd backpack library for circuit python, the lcd.print()
 ### Pictures/GIFs
 ![](CAPtouchLCDGIF.gif)
 ## Circuit Python Assignment 4
+![](PHOTOINTERRUPTERlcdcount.py)
 ### Desc.
 Code so that when you interrupt a photo interrupter, it adds to a counter that refreshes every 4 seconds.
 ### Lessons Learned:
@@ -35,6 +40,7 @@ Doing that without using the sleep() funtion was very difficult.
 ### Pictures/GIFs
 ![](PHOTOINTERRUPTERlcdcountGIF.gif)
 ## Circuit Python assignment 5
+![](NEOPIXELultrasonic.py)
 ### Desc.
 In this code, the onboard neopixel of a metro express M0 fades between the colors on the rgb spectrum based on how far away an object is from an ultrasonic sensor.
 ### Lessons Learned:
@@ -42,6 +48,7 @@ With the library for circuit python with the ultrasonic sensor, it has this anno
 ### Pictures/ GIFs
 ![](ULTRASONICneopixelGIF.gif)
 ## Circuit Python assignment 6
+![](RGBled.py)
 ### Desc.
 A class that allows a 4 pin rgb led to be comtrolled easily with multiple varying functions.
 ### Lessons learned:
@@ -49,6 +56,7 @@ I learned that it is very easy to have something get stuck in a loop and have yo
 ### Pictures/GIFs
 ![](RGBledGIF.gif)
 ## Circuit Python assignment 7
+![](fancyLED.py)
 ### Desc.
 A class code to be used with code provided with the assignment. (Code provided is multiple functions that you need to make with modules and classes in your other code)
 ### Lessons learned:
