@@ -7,7 +7,7 @@ class RGB:
         self.pin2 = pulseio.PWMOut(pin2, frequency=5000, duty_cycle=0)
         self.pin3 = pulseio.PWMOut(pin3, frequency=5000, duty_cycle=0)
     def red(self): #Turns the led red
-        self.pin1.duty_cycle = 0        #Because of the kind of leds I have, I made the values opposite because the long pin is the positive pin.
+        self.pin1.duty_cycle = 0    #Because of the kind of leds I have, I made the values opposite because the long pin is the positive pin.
         self.pin2.duty_cycle = 65535
         self.pin3.duty_cycle = 65535
     def blue(self): #Turns the led blue
@@ -33,7 +33,6 @@ class RGB:
         var = 1
         speed = .01
         self.duration = 0
-
 
         for x in range(duration * 100):
             self.pin1.duty_cycle = 65535 - R * 257 #convert the values to make it work with the PWM output and output them.
@@ -65,5 +64,4 @@ class RGB:
         self.pin1.duty_cycle = 65535
         self.pin2.duty_cycle = 65535
         self.pin3.duty_cycle = 65535
-
 
