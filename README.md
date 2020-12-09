@@ -16,7 +16,7 @@ This code makes it so that a LED wired to digital pin 13 blinks at a variable ra
 ### Lessons learned.
 I learned that you have to determine whether your pin is an output or an input.
 ### Pictures/GIFs
-![](LEDBlinkGIF.gif)
+![](GIFs/LEDBlinkGIF.gif)
 ## Circuit Python assignment 3
 [CAPtouchSERVO.py](https://github.com/msweet53/CircuitPythonMAXS/blob/main/Code/CAPtouchSERVO.py)
 ### Desc.
@@ -24,7 +24,7 @@ This code makes it so that when you touch one of the wires, the servo moves in o
 ### Lessons Learned:
 That when the servo goes over 180 or under 0, it comes back as an error so you have to code to prevent that.
 ### Pictures/GIFs
-![](CAPtouchSERVOGIF.gif)
+![](GIFs/CAPtouchSERVOGIF.gif)
 ## Circuit Python assignment 4
 [CAPtouchLCD.py](https://github.com/msweet53/CircuitPythonMAXS/blob/main/Code/CAPtouchLCD.py)
 ### Desc.
@@ -32,7 +32,7 @@ This makes it so that when you touch one wire the mode changes from up to down o
 ### Lessons Learned:
 I learned that with the lcd backpack library for circuit python, the lcd.print() funtion does not work with integers, and you have to turn the integer you want to display into a string with the str() function first.
 ### Pictures/GIFs
-![](CAPtouchLCDGIF.gif)
+![](GIFs/CAPtouchLCDGIF.gif)
 ## Circuit Python Assignment 4
 [PHOTOINTERRUPTERlcdcount.py](https://github.com/msweet53/CircuitPythonMAXS/blob/main/Code/PHOTOINTERRUPTERlcdcount.py)
 ### Desc.
@@ -40,7 +40,7 @@ Code so that when you interrupt a photo interrupter, it adds to a counter that r
 ### Lessons Learned:
 Doing that without using the sleep() funtion was very difficult.
 ### Pictures/GIFs
-![](PHOTOINTERRUPTERlcdcountGIF.gif)
+![](GIFs/PHOTOINTERRUPTERlcdcountGIF.gif)
 ## Circuit Python assignment 5
 [NEOPIXELultrasonic.py](https://github.com/msweet53/CircuitPythonMAXS/blob/main/Code/NEOPIXELultrasonic.py)
 ### Desc.
@@ -48,7 +48,7 @@ In this code, the onboard neopixel of a metro express M0 fades between the color
 ### Lessons Learned:
 With the library for circuit python with the ultrasonic sensor, it has this annoying error that will just stop your code entirely if you haven't coded around it being able to stop your code entirely. Also if you get the error the neopixel turns like a bright green.
 ### Pictures/ GIFs
-![](ULTRASONICneopixelGIF.gif)
+![](GIFs/ULTRASONICneopixelGIF.gif)
 ## Circuit Python assignment 6
 [RGBled.py](https://github.com/msweet53/CircuitPythonMAXS/blob/main/Code/RGBled.py)
 ### Desc.
@@ -56,7 +56,7 @@ A class that allows a 4 pin rgb led to be comtrolled easily with multiple varyin
 ### Lessons learned:
 I learned that it is very easy to have something get stuck in a loop and have your code just do that one loop instead of going on with the rest of your code. I was having a problem with the rgb fade module and it would just get stuck there. So I had to make it so that you could set a duration for it to last. 
 ### Pictures/GIFs
-![](RGBledGIF.gif)
+![](GIFs/RGBledGIF.gif)
 ## Circuit Python assignment 7
 [fancyLED.py](https://github.com/msweet53/CircuitPythonMAXS/blob/main/Code/fancyLED.py)
 ### Desc.
@@ -64,4 +64,4 @@ A class code to be used with code provided with the assignment. (Code provided i
 ### Lessons learned:
 I learned how to make a class and a module and how to make them work with digital IO. (Learned this because I was unable to do the previous assignment before this one due to not having to correct type of LED)
 ### Pictures/GIFs:
-![](fancyLEDGIF.gif)
+![](GIFs/fancyLEDGIF.gif)
